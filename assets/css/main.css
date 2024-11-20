@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat";
+  color: #181818;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 1399px;
+  margin: 0 auto;
+}
+.container.md {
+  max-width: 1139px;
+}
+
+.text_13_6 {
+  color: #181818;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+.text_13_7 {
+  color: #181818;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.text_20_7 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text_20_5 {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+}
+.flex.between {
+  justify-content: space-between;
+}
+.flex.center {
+  justify-content: center;
+}
+.flex.end {
+  justify-content: flex-end;
+}
+.flex.start {
+  justify-content: flex-start;
+}
+.flex.column {
+  flex-direction: column;
+}
+.flex.a_center {
+  align-items: center;
+}
+.flex.a_start {
+  align-items: flex-start;
+}
+.flex.a_end {
+  align-items: flex-end;
+}
+
+.header {
+  background-color: #371B63;
+  padding-top: 43px;
+}
+.header ul {
+  gap: 20px;
+}
+.header ul a {
+  color: #FFF;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.hero {
+  background-color: #371B63;
+}/*# sourceMappingURL=main.css.map */
