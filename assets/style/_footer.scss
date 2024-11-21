@@ -1,0 +1,44 @@
+.footer {
+    padding-top: 40px;
+    background: #F2E0FF;
+
+    @media (max-width:556px) {
+        padding-top: 19px;
+    }
+
+    .footer_content {
+        padding: 62px 0 46px;
+        background: #F1F1F1;
+
+        .container {
+            margin: 0 auto;
+            max-width: 840px;
+            gap: 48px;
+
+            @media (max-width:556px) {
+                flex-direction: column;
+            }
+
+            a {
+                &:first-child {
+                    text-align: left;
+                    @media (max-width:556px) {
+                        text-align: center;
+                    }
+                }
+
+                color: #262626;
+                text-align: center;
+                font-family: 'Inter';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+                @media (max-width:556px) {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
