@@ -547,6 +547,12 @@
 .products {
   padding: 151px 0 156px;
 }
+.products.product_top_section {
+  padding-bottom: 0;
+}
+.products.product_bottom_section {
+  padding-top: 40px;
+}
 @media (max-width: 1200px) {
   .products {
     padding-top: 58px;
@@ -707,6 +713,7 @@
   position: absolute;
   right: 0;
   top: -20px;
+  z-index: 2;
 }
 @media (max-width: 768px) {
   .products .product_items .product_item .product_top .sale {
